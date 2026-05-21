@@ -43,3 +43,9 @@ El método `update()` se ejecuta automáticamente para actualizar el comportamie
 
 ### Colisiones
 Las colisiones permiten detectar cuando dos objetos gráficos se tocan.
+
+
+![alt text](imagen1.jpg)
+
+
+![alt text](imagen.2.jpg)

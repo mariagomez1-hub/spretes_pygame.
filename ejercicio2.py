@@ -26,7 +26,7 @@ class CUADRADO(pygame.sprite.Sprite):
     def update(self):
         self.rect.x += self.DESPLAZAMIENTO
 
-        if self.rect.z >= 320:
+        if self.rect.x >= 320:
             self.rect.x = 320
             self.DESPLAZAMIENTO = -3
         elif self.rect.x <= 0:
@@ -43,7 +43,7 @@ class CUADRADO(pygame.sprite.Sprite):
 # color
 COLOR_AZUL = (0,0,255)
 pygame.init()
-screen = pygame.display.set_mode(400, 400)
+screen = pygame.display.set_mode((400,400))
 background = pygame.Surface(screen.get_size())
 background.fill(COLOR_AZUL)
 screen.blit(background, (0, 0))
